@@ -1,0 +1,30 @@
+body{
+    font-family: "微軟正黑體"
+}
+
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+
+.nav-top{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+p{
+    font-size: 24px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.text-hover:hover{
+    color: aquamarine !important;;
+}
+
+.card-footer a{
+    display: block;
+}
