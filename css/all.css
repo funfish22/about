@@ -28,3 +28,25 @@ li{
 .card-footer a{
     display: block;
 }
+
+.scroll-nav{
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: -15px;
+    animation-duration: 3S;
+    animation-name: down;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down{
+    0%{
+        top: 280px;
+    }
+    50%{
+        top: 300px;
+    }
+    100%{
+        top: 280px;
+    }
+}
