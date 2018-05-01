@@ -39,6 +39,25 @@ li{
     animation-iteration-count: infinite;
 }
 
+.aboutMe-ani,.skills-ani{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.active{
+    opacity: 1;
+}
+
+.works-ani{
+    overflow: hidden;
+    height: 0px;
+    transition: all 3s;
+}
+
+.active-works{
+    height: 1010px;
+}
+
 @keyframes down{
     0%{
         top: 280px;

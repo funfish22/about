@@ -29,13 +29,13 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scrollVal = $(this).scrollTop();
         if (scrollVal > 180) {
-            $('.aboutMe-ani').fadeIn(2000);
+            $('.aboutMe-ani').addClass('active');
         };
         if (scrollVal > 1000) {
-            $('.skills-ani').fadeIn(2000);
+            $('.skills-ani').addClass('active');
         }
         if (scrollVal > 1340) {
-            $('.works-ani').slideDown(2000);
+            $('.works-ani').addClass('active-works');
         }
     });
 });
