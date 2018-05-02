@@ -31,7 +31,7 @@ li{
 
 .scroll-nav{
     position: absolute;
-    top: 280px;
+    top: 300px;
     left: 50%;
     margin-left: -15px;
     animation-duration: 3S;
@@ -39,7 +39,7 @@ li{
     animation-iteration-count: infinite;
 }
 
-.aboutMe-ani,.skills-ani{
+.aboutMe-ani,.skills-ani,.works-ani{
     opacity: 0;
     transition: all 2s;
 }
@@ -48,24 +48,14 @@ li{
     opacity: 1;
 }
 
-.works-ani{
-    overflow: hidden;
-    height: 0px;
-    transition: all 3s;
-}
-
-.active-works{
-    height: 1010px;
-}
-
 @keyframes down{
     0%{
-        top: 280px;
-    }
-    50%{
         top: 300px;
     }
+    50%{
+        top: 330px;
+    }
     100%{
-        top: 280px;
+        top: 300px;
     }
 }

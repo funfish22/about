@@ -35,7 +35,7 @@ $(document).ready(function () {
             $('.skills-ani').addClass('active');
         }
         if (scrollVal > 1340) {
-            $('.works-ani').addClass('active-works');
+            $('.works-ani').addClass('active');
         }
     });
 });
