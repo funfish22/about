@@ -22,7 +22,11 @@ li{
 }
 
 .text-hover:hover{
-    color: aquamarine !important;;
+    color: aquamarine !important;
+}
+
+.text-active{
+    color: aquamarine !important;
 }
 
 .card-footer a{
