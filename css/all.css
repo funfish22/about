@@ -63,3 +63,22 @@ li{
         top: 300px;
     }
 }
+
+.box-shadow{
+    box-shadow: 0px 0px 5px gray;
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.box-shadow img{   
+    transition: all .5s;
+}
+
+.box-shadow:hover{
+    box-shadow: 0px 0px 15px gray;
+}
+
+.box-shadow:hover img{
+    overflow: hidden;
+    transform: scale(1.1);
+}
