@@ -79,6 +79,26 @@ li{
 }
 
 .box-shadow:hover img{
-    overflow: hidden;
+    opacity: .3;
     transform: scale(1.1);
+}
+
+.box-shadow:hover .list-title{
+    bottom: 65px;   
+}
+
+.list-item{
+    overflow: hidden;
+    position: relative;
+}
+
+.list-title{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    z-index: 10;
+    color: #000;
+    font-weight: bold;
+    transition: all .5s;
 }
