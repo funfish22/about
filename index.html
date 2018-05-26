@@ -12,7 +12,7 @@
     <title>個人簡介</title>
   </head>
   <body>
-    <header class="d-flex justify-content-center align-items-center" style="height: 100vh; background-image: url(img/bg.jpg); background-size: cover; background-attachment: fixed;">
+    <header id="home" class="d-flex justify-content-center align-items-center" style="height: 100vh; background-image: url(img/bg.jpg); background-size: cover; background-attachment: fixed;">
         <div class="row text-white">
             <div class="col-12 text-center">
                     <img class="card-img-top rounded-circle" src="img/me.jpg" alt="Card image cap" style="width: 150px; height: 150px;">
@@ -49,10 +49,10 @@
             </div>
         </div>       
     </nav>
-    <div class="container mb-3">
+    <div class="container-fluid mb-3 p-0">
         <div class="card border-0">
             <ul class="list-group list-group-flush">
-                <li id="aboutMe" class="list-group-item border-0">
+                <li id="aboutMe" class="list-group-item border-0 container pb-5">
                     <h2 class="text-primary text-center py-5">About Me</h2>
                     <div class="row aboutMe-ani">
                         <div class="col-lg-5 col-md-12">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                 </li>
-                <li id="skills" class="list-group-item border-0">
+                <li id="skills" class="list-group-item border-0 pb-5" style="background-image: url(img/bg-skill.png)">
                     <h2 class="text-primary text-center py-5">Skills</h2>
                     <div class="row justify-content-center skills-ani">
                         <div>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                 </li>
-                <li id="works" class="list-group-item border-0">
+                <li id="works" class="list-group-item border-0 container">
                     <h2 class="text-primary text-center py-5">Works</h2>
                     <div class="row works-ani">
                         <div class="col-lg-4 col-md-6 mb-3">

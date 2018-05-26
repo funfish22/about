@@ -27,15 +27,18 @@ $(document).ready(function () {
         }, 500);
     });
     $(window).scroll(function () {
+        var scrollPos = $(window).scrollTop();
         var scrollVal = $(this).scrollTop();
         if (scrollVal > 180) {
             $('.aboutMe-ani').addClass('active');
         };
         if (scrollVal > 1000) {
             $('.skills-ani').addClass('active');
-        }
+        };
         if (scrollVal > 1340) {
             $('.works-ani').addClass('active');
-        }
+        };
+        $('#home').css('background-position-y', -(scrollPos/2) + 'px');
+        $('#skills').css('background-position-y', -(scrollPos / 2) + 'px');
     });
 });
