@@ -38,7 +38,7 @@ $(document).ready(function () {
         if (scrollVal > 1340) {
             $('.works-ani').addClass('active');
         };
-        $('#home').css('background-position-y', -(scrollPos/2) + 'px');
+        // $('#home').css('background-position-y', -(scrollPos/1) + 'px');
         $('#skills').css('background-position-y', -(scrollPos / 2) + 'px');
     });
 });
