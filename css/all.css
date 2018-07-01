@@ -17,6 +17,7 @@ p{
     font-size: 24px;
 }
 
+
 li{
     font-size: 20px;
 }
@@ -43,7 +44,7 @@ li{
     animation-iteration-count: infinite;
 }
 
-.aboutMe-ani,.skills-ani,.works-ani{
+.skills-ani,.works-ani{
     opacity: 0;
     transition: all 2s;
 }
@@ -51,6 +52,26 @@ li{
 .active{
     opacity: 1;
 }
+
+
+#aboutMe{
+    overflow: hidden;
+}
+
+.me-img{
+    transform: translateX(-500px);
+}
+
+.me-content{
+    transform: translateX(800px);
+}
+
+.showMe{
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+
 
 @keyframes down{
     0%{

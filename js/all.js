@@ -30,7 +30,8 @@ $(document).ready(function () {
         var scrollPos = $(window).scrollTop();
         var scrollVal = $(this).scrollTop();
         if (scrollVal > 180) {
-            $('.aboutMe-ani').addClass('active');
+            $('.me-img').addClass('showMe');
+            $('.me-content').addClass('showMe');
         };
         if (scrollVal > 1000) {
             $('.skills-ani').addClass('active');
