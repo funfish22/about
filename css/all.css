@@ -71,6 +71,9 @@ li{
     transition: all 2s;
 }
 
+.active-nav{
+    color: aquamarine !important;
+}
 
 
 @keyframes down{
