@@ -1,5 +1,5 @@
 body{
-    font-family: "微軟正黑體"
+    font-family: "微軟正黑體";
 }
 
 .bg-cover{
@@ -59,11 +59,11 @@ li{
 }
 
 .me-img{
-    transform: translateX(-500px);
+    transform: translateX(-100%);
 }
 
 .me-content{
-    transform: translateX(800px);
+    transform: translateX(100%);
 }
 
 .showMe{
